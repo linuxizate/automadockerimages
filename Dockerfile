@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 RUN apt update
 RUN apt install -y nginx
-RUN echo "Hola_CI/CD"> /usr/share/nginx/html/index.html
+RUN echo Hola_CI/CD > /usr/share/nginx/html/index.html
 
 EXPOSE 80
 
